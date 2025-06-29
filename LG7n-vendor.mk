@@ -249,5 +249,4 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LG7n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
-    libaal_cust \
-    libaalservice
+    libaal_cust
