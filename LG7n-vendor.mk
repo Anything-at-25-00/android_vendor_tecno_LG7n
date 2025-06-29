@@ -247,3 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LG7n/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
     vendor/tecno/LG7n/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/tecno/LG7n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
+
+PRODUCT_PACKAGES += \
+    libaal_cust \
+    libaalservice
